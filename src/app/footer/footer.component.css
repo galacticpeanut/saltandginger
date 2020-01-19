@@ -1,0 +1,10 @@
+.footer {
+  background-color: #211F24;
+}
+
+.footer-content {
+  text-align: right;
+  margin-right: 1em;
+  padding-bottom: 1px;
+  padding-top: 20px;
+}

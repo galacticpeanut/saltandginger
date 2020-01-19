@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+body {
+  background-color: black;
+/*  background-color: #211F24; */
+  color: #9c9c9c;
+}
+
+
+.content-header {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer {
+  flex: none;
+  width: 100%;
+  margin: auto auto 0 auto;
+  background:gray;
+}

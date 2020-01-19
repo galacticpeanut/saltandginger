@@ -1,0 +1,45 @@
+.container {
+/*  background-color: #211F24; */
+  background-color: black;
+}
+.content-header h1 {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+}
+
+.content-body {
+  text-align: center;
+}
+
+.menu-item {
+  margin-top: 40px;
+}
+
+.menu-header {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.menu-images {
+  max-width: 100%;
+  width:auto;
+
+}
+
+figure {
+  padding-right: 20px;
+  max-width: 60em;
+  width:auto;
+  text-align: center;
+  display: inline-block;
+}
+
+figure img {
+  border: 1px solid white;
+}
+
+figure figcaption {
+  padding-top: 20px;
+  font-size: 1em;
+  text-align:center
+}

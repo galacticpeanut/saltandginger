@@ -1,0 +1,59 @@
+.page-header {
+  padding-top: 10px;
+  background-color: #211F24;
+  margin:0px;
+}
+
+.img-logo {
+  max-width: 40%;
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.custom-navbar {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  background-color: rgba(0, 0, 0, 1) !important;
+  margin-top: 20px;
+}
+
+a {
+  outline: 0;
+}
+
+.navbar-nav>li>a {
+  color: rgba(148, 148, 148, 1);
+  background-color: rgba(0, 0, 0, 1);
+}
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+  color: rgba(51, 51, 51, 1);
+  background-color: rgba(0, 0, 0, 1);
+}
+.navbar-nav>.active>a,
+.navbar-nav>.active>a:hover,
+.navbar-nav>.active>a:focus {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(77, 77, 77, 1);
+}
+.navbar-toggler {
+  border-color: #4d4d4d;
+}
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  background-color: #4d4d4d;
+}
+.navbar-toggler .icon-bar {
+  background-color: #4d4d4d;
+}
+.navbar-toggler:hover .icon-bar,
+.navbar-toggler:focus .icon-bar {
+  background-color: #000000;
+}
+
+.collapsing {
+  -webkit-transition: height .05s ease;
+       -o-transition: height .05s ease;
+          transition: height .05s ease;
+}

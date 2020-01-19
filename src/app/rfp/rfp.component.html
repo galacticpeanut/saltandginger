@@ -1,0 +1,75 @@
+<div class="container">
+<div class="content-header">
+  <h1>Request for Proposal</h1>
+</div>
+
+<div class="form-container">
+  <form>
+    <div class="form-group row">
+      <label class="col-sm-4 col-form-label" for="name">Name: </label> 
+      <div class="col-sm-8">
+        <input id="name" name="name" type="text" class="form-control" required="required">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4 col-form-label" for="organization">Organization: </label> 
+      <div class="col-sm-8">
+        <input id="organization" name="organization" type="text" class="form-control" required="required">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4 col-form-label" for="phone">Phone Number: </label> 
+      <div class="col-sm-8">
+        <input id="phone" name="phone" type="text" class="form-control" required="required">
+        </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4 col-form-label" for="address">Event Address: </label> 
+      <div class="col-sm-8">
+        <textarea id="address" name="address" cols="40" rows="5" class="form-control"></textarea>
+      </div>
+    </div>
+    <div>
+      <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="eventtime">Event Date: </label>
+        <div class="col-sm-8">
+          <input class="form-control" id="eventdate" type="date" name="eventdate" value="2017-06-01T08:30">
+      </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4 col-form-label" for="email">E-mail</label> 
+      <div class="col-sm-8">
+        <input id="email" name="email" type="text" class="form-control" required="required">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4 col-form-label" for="estimatepeople">Estimated # of People: </label> 
+      <div class="col-sm-8">
+        <input id="estimatepeople" name="estimatepeople" type="text" class="form-control">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4 col-form-label" for="textarea">Additional Comments: </label> 
+      <div class="col-sm-8">
+        <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control"></textarea>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4 col-form-label" >Preferred Contact Method: </label> 
+      <div class="col-sm-8">
+        <div class="custom-control custom-radio custom-control-inline ">
+          <input name="contactmethod" id="contactmethod_0" type="radio" class="custom-control-input" value="contactphone"> 
+          <label for="contactmethod_0" class="custom-control-label">Phone</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+          <input name="contactmethod" id="contactmethod_1" type="radio" class="custom-control-input" value="contactemail"> 
+          <label for="contactmethod_1" class="custom-control-label">E-mail</label>
+        </div>
+      </div>
+    </div> 
+    <div class="form-group offset-5">
+      <button name="submit" type="submit" class="btn btn-dark">Submit</button>
+    </div>
+  </form>
+</div>

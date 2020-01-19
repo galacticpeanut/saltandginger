@@ -1,0 +1,68 @@
+.content-header h1 {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+}
+
+.content-body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  max-width: 60em;
+  width:auto;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  line-height: 1.5;
+  padding-top: 3em;
+}
+
+.contact-form {
+  padding-top: 3em;
+}
+
+form {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+}
+
+input[type="text"],
+select.form-control {
+  background: #211F24;
+  border: none;
+  border-bottom: 1px solid #9c9c9c;
+  color: #9c9c9c;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #211F24;
+  border-bottom: 1px solid #211F24;
+  color: #9c9c9c;
+}
+
+textarea,
+select.form-control {
+  background: #211F24;
+  border: none;
+  border-bottom: 1px solid #9c9c9c;
+  color: #9c9c9c;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+textarea:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #211F24;
+  border-bottom: 1px solid #211F24;
+  color: #9c9c9c;
+}
