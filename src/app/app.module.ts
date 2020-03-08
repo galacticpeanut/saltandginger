@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { RfpComponent } from './rfp/rfp.component';
+import { ScrollTopComponent } from './scroll-top/scroll-top.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +22,9 @@ import { RfpComponent } from './rfp/rfp.component';
     MenuComponent,
     AboutComponent,
     ContactComponent,
+    ScrollTopComponent,
     FooterComponent,
-    RfpComponent
+    RfpComponent,
   ],
   imports: [
     BrowserModule,
