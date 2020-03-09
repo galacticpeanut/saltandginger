@@ -1,47 +1,33 @@
 <!-- TODO Add link to Shopping cart when items are added to menu-->
 <!-- TODO Show each item + price per person with a button that expands
 the menu item and shows a picture and basic description/options -->
-
 <div class="container">
 
 <div class="content-header">
   <h1>Catering Menu</h1>
 </div>
 
-<div class="content-body">
-  <div class="menu-row">
 
-    <div class="menu-item">
-      <div class="menu-header">
-        <h4>Beef Wrap</h4>
+  <div class="row" >
+    <div class="col-sm-4" *ngFor="let item of items">
+      <div class="card text-white bg-dark" >
+        <img class="card-img-top img-fluid" src="{{item.image_location}}" alt="Card image cap">
+        <div class="card-body d-flex flex-column">
+          <h2 class="card-title">{{item.name}}</h2>
+          <p class="card-text">{{item.description}}</p>
+          <h5 class="card-title">Ingredients</h5>
+          <p class="card-text">{{item.ingredients}}</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-dark">Price: ${{item.price_min}} - ${{item.price_max}} Per Person</li>
+            <li class="list-group-item bg-dark">Diet Restriction: {{item.diet_restriction}}</li>
+            <li class="list-group-item bg-dark">Allergy Warning: {{item.allergies}}</li>
+          </ul>
+          <a href="#" class="btn btn-outline-light mt-auto">Add to Cart</a>
+        </div>
       </div>
-
-      <figure>
-        <img class="mx-auto d-block menu-images" src="../../assets/images/mock-images/beef-wrap.jpg" alt="">
-        <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptate, reprehenderit error pariatur laudantium magni incidunt veritatis voluptatem! Eaque quos alias mollitia, pariatur et necessitatibus expedita ratione dolor aperiam odio!</figcaption>
-      </figure>
     </div>
 
-    <div class="menu-item">
-      <div class="menu-header">
-        <h4>Mexican Quesadilla</h4>
-      </div>
-      
-      <figure>
-        <img class="mx-auto d-block menu-images" src="../../assets/images/mock-images/quesadilla.jpg" alt="">
-        <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis commodi beatae fugit voluptatem omnis obcaecati ex vel ut totam id accusantium exercitationem enim alias dolorum laborum, placeat voluptatum, nisi itaque?</figcaption>
-      </figure>
-    </div>
-
-    <div class="menu-item">
-      <div class="menu-header">
-        <h4>Human</h4>
-      </div>
-      <figure>
-        <img class="mx-auto d-block  menu-images" src="../../assets/images/mock-images/human.jpg" alt="">
-        <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat labore quibusdam quia eius autem, dolorum maiores cumque vel ut inventore impedit esse dicta delectus at mollitia, enim vero soluta voluptas.</figcaption>
-      </figure>
-    </div>
 
   </div>
+
 </div>
