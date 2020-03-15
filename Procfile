@@ -1,2 +1,2 @@
 web: nodemon server.js
-api: nodemon server/server.js
+web: nodemon server/server.js
