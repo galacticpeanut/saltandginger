@@ -12,13 +12,13 @@ export class MerchandiseService {
   constructor(private httpService: HttpClient) { }
 
   public get_item(id: number): Observable<Merchandise> {
-    return this.httpService.get<Merchandise>(`https://saltandginger.herokuapp.com:3000/merchandise/${id}`).pipe(
+    return this.httpService.get<Merchandise>(`https://saltandginger.herokuapp.com/api/merchandise/${id}`).pipe(
       map(data => new Merchandise().deserialize(data))
     );
   }
 
   public get_all_items(): Observable<Merchandise[]> {
-    return this.httpService.get<Merchandise[]>(`https://saltandginger.herokuapp.com:3000/merchandise`).pipe(
+    return this.httpService.get<Merchandise[]>(`https://saltandginger.herokuapp.com/api/merchandise`).pipe(
       map(data => data['merchandise'].map(data => new Merchandise().deserialize(data)))
     );
   }
