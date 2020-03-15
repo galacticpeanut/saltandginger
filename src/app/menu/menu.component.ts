@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuService } from '../services/menu.service';
 import { Menu } from '../models/Menu';
+import { ExecFileSyncOptionsWithBufferEncoding } from 'child_process';
 
 @Component({
   selector: 'app-menu',
@@ -9,23 +10,25 @@ import { Menu } from '../models/Menu';
 })
 
 export class MenuComponent {
-  public item_id: number;
+  public itemID: number;
   public item: Menu;
   public items: Menu[];
+  public cateringPackage: boolean;
 
-  constructor(private menu_service: MenuService ) {
+  constructor(private menuService: MenuService ) {
 
   }
 
-  public get_item() {
-    this.menu_service.get_item(this.item_id).subscribe(item => this.item = item);
+  public getItem() {
+    this.menuService.getItem(this.itemID).subscribe(item => this.item = item);
   }
 
-  public get_all_items() {
-    this.menu_service.get_all_items().subscribe(items => this.items = items)
+  public getAllItems() {
+    this.menuService.getAllItems().subscribe(items => this.items = items);
   }
+
 
   ngOnInit() {
-    this.get_all_items();
+    this.getAllItems();
   }
 }

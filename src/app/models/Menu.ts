@@ -1,7 +1,7 @@
 export class Menu {
-  public item_id: number;
-  public name: string;
-  public description: string;
+  public menu_id: number;
+  public menu_name: string;
+  public menu_description: string;
   public ingredients: string;
   public price_min: number;
   public price_max: number;

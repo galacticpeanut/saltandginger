@@ -15,6 +15,10 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { RfpComponent } from './rfp/rfp.component';
 import { ScrollTopComponent } from './scroll-top/scroll-top.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { CartComponent } from './cart/cart.component';
+import { StoreComponent } from './store/store.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +31,10 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     ScrollTopComponent,
     FooterComponent,
     RfpComponent,
+    LoginComponent,
+    RegisterComponent,
+    CartComponent,
+    StoreComponent,
   ],
   imports: [
     BrowserModule,

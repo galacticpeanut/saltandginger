@@ -6,7 +6,7 @@ export class Orders {
   public item_id: number;
   public created_on: Date;
   public items: Menu[];
-  public users: Users[];
+  public users: Users;
 
   deserialize(input: any): this {
     Object.assign(this, input);
@@ -21,4 +21,3 @@ export class Orders {
     this.created_on = new Date();
   }
 }
-

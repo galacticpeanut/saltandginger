@@ -9,17 +9,17 @@ import { map } from 'rxjs/operators';
 })
 export class MenuService {
 
-  constructor(private http_service: HttpClient) { }
+  constructor(private httpService: HttpClient) { }
 
-  public get_item(id: number): Observable<Menu> {
-    return this.http_service.get<Menu>(`http://10.99.4.101:3000/menu/${id}`).pipe(
+  public getItem(id: number): Observable<Menu> {
+    return this.httpService.get<Menu>(`http://10.99.4.101:3000/menu/${id}`).pipe(
       map(data => new Menu().deserialize(data))
     );
   }
 
-  public get_all_items(): Observable<Menu[]> {
-    return this.http_service.get<Menu[]>(`http://10.99.4.101:3000/menu`).pipe(
-      map(data => data.map(data => new Menu().deserialize(data)))
+  public getAllItems(): Observable<Menu[]> {
+    return this.httpService.get<Menu[]>(`http://10.99.4.101:3000/menu`).pipe(
+      map(data => data['menu'].map(data => new Menu().deserialize(data)))
     );
   }
 }
