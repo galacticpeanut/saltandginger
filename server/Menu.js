@@ -78,8 +78,4 @@ Menu.readByPk = async (req, res) => {
   }
 };
 
-var test = "postgres://vzxoflasomoffg:db8f20a1ffbc0380c56d37b512cbeea7712365e6c22331b9cbd23863648abefe@ec2-34-200-101-236.compute-1.amazonaws.com:5432/d1e6n0ll8odr4h"
-console.log(test.match(3), test.match(4));
-console.log("Test");
-
 module.exports = Menu;
