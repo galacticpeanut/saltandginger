@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuService } from '../services/menu.service';
 import { Menu } from '../models/Menu';
-import { ExecFileSyncOptionsWithBufferEncoding } from 'child_process';
 
 @Component({
   selector: 'app-menu',
