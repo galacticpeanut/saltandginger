@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1584423141136,
+  "timestamp": 1584424094971,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -83,11 +83,11 @@
     "/assets/images/mock-images/carousel_1.webp": "b7202dd2e69b0ed9a8ee2dae1c35ab6dc2af4d02",
     "/assets/images/mock-images/carousel_2.webp": "189728cd561e35963784211d47bff4468ab430c1",
     "/assets/images/mock-images/carousel_3.webp": "9c26e9f597a78f30da9bf4ea1fa9f3f4de0cb83f",
-    "/assets/images/mock-images/item_1.webp": "500ced49336a1d407f1c7d5c94e1e3ebf0c5dc3b",
-    "/assets/images/mock-images/item_2.webp": "3dfd7cdce37460ec9843ce438bbaf24d14968607",
+    "/assets/images/mock-images/item_1.webp": "5333f9d66c8d509a4d9683c6a6589968bd27e586",
+    "/assets/images/mock-images/item_2.webp": "6d49f8c8f44d567f819c4db4815d8a3113655143",
     "/assets/images/mock-images/item_3.webp": "da09fa43d8a176b7d1a0767a5bd25171e7b7142a",
-    "/assets/images/mock-images/item_4.webp": "a9e462e2e5429a36ba2d9c245f79e15fc4db88e2",
-    "/assets/images/mock-images/item_5.webp": "6d3595c51c35db2027723463c458df9c706869fa",
+    "/assets/images/mock-images/item_4.webp": "b5e438982cceb2efc55ea5f34983a728f7b0438c",
+    "/assets/images/mock-images/item_5.webp": "24a766bef97018685eb7bfea4f1aa5438a169441",
     "/assets/images/mock-images/merchandise_fitted_hat.webp": "51e105176753d95b7f4a52395488ae9f8ffdc2d1",
     "/assets/images/mock-images/page-header.webp": "4821e9bafbd82540589f692b0f46df77b1f3f038",
     "/assets/images/saltandginger-inverted.jpg": "7fb39e1c11b18ac65a873aa0feb9da385fe950b2",
