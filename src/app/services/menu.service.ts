@@ -12,13 +12,13 @@ export class MenuService {
   constructor(private httpService: HttpClient) { }
 
   public getItem(id: number): Observable<Menu> {
-    return this.httpService.get<Menu>(`http://saltandginger.betazeta.io/api/menu/${id}`).pipe(
+    return this.httpService.get<Menu>(`https://saltandginger.betazeta.io/api/menu/${id}`).pipe(
       map(data => new Menu().deserialize(data))
     );
   }
 
   public getAllItems(): Observable<Menu[]> {
-    return this.httpService.get<Menu[]>(`http://saltandginger.betazeta.io/api/menu`).pipe(
+    return this.httpService.get<Menu[]>(`https://saltandginger.betazeta.io/api/menu`).pipe(
       map(data => data['menu'].map(data => new Menu().deserialize(data)))
     );
   }
